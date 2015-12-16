@@ -1,0 +1,51 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "location": {
+      "value": "North Europe"
+    },
+    "virtualNetworkName": {
+      "value": "RenderVNet"
+    },
+    "addressPrefix": {
+      "value": "10.0.0.0/16"
+    },
+    "vpnSubnetPrefix": {
+      "value": "10.0.0.0/28"
+    },
+    "renderSubnetPrefix": {
+      "value": "10.0.1.0/24"
+    },
+    "vpnNSGName": {
+      "value": "vpnNsg"
+    },
+    "renderNSGName": {
+      "value": "renderNsg"
+    },
+    "inboundSshPort": {
+      "value": 1194
+    },
+    "dnsNameForPublicIP": {
+      "value": "dnsname13422"
+    },
+    "newStorageAccountName": {
+      "value": "storageaccountnamr34343"
+    },
+    "adminUserName": {
+      "value": "uesr"
+    },
+    "adminPassword": {
+      "value": "Password1"
+    },
+    "vpnVmSize": {
+      "value": "Standard_D2"
+    },
+    "renderVmSize": {
+      "value": "Standard_D2"
+    },
+    "numberOfRenderNodes": {
+      "value": 5
+    }
+  }
+}
