@@ -5,6 +5,15 @@
     "location": {
       "type": "string",
       "defaultValue": "North Europe",
+      "allowedValues": [
+        "West US",
+        "East US",
+        "North Central US",
+        "North Europe",
+        "West Europe",
+        "East Asia",
+        "Southeast Asia"
+      ],
       "metadata": {
         "description": "This is the region where the resources will be created"
       }
