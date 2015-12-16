@@ -6,13 +6,21 @@
       "type": "string",
       "defaultValue": "North Europe",
       "allowedValues": [
-        "West US",
+        "Australia East",
+        "Australia Southeast",
+        "Brazil South",
+        "Central US",
+        "East Asia",
         "East US",
+        "East US 2",
+        "Japan East",
+        "Japan West",
         "North Central US",
         "North Europe",
+        "South Central US",
+        "Southeast Asia",
         "West Europe",
-        "East Asia",
-        "Southeast Asia"
+        "West US"
       ],
       "metadata": {
         "description": "This is the region where the resources will be created"
@@ -105,6 +113,16 @@
     "renderVmSize": {
       "type": "string",
       "defaultValue": "Standard_D2",
+      "allowedValues": [
+        "Standard_D1",
+        "Standard_D2",
+        "Standard_D3",
+        "Standard_D4",
+        "Standard_D11",
+        "Standard_D12",
+        "Standard_D13",
+        "Standard_D14"
+      ],
       "metadata": {
         "description": "Size for the Render Node VMs"
       }
